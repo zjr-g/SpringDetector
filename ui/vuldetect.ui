@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>726</width>
+    <height>578</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Comic Sans MS</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>VulDetect</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPlainTextEdit" name="urlPlainTextEdit">
+     <property name="placeholderText">
+      <string>url list</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="loadUrlPushButton">
+     <property name="text">
+      <string>LoadUrl</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <item>
+        <property name="text">
+         <string>ALL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>JeeSpringCloud_2023</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CVE_2022_22978</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CVE_2022_22947</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CVE_2022_22963</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CVE_2022_22965</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CVE_2021_21234</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SnakeYAML_2021_rce</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Eureka_Xstream_2021_rce</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Jolokia_2020_rce</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CVE_2018_1273</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="agencyCheckBox">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Agency</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="detectPushButton">
+       <property name="text">
+        <string>Detect</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout"/>
+   </item>
+   <item>
+    <widget class="QPlainTextEdit" name="logPlainTextEdit"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
